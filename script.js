@@ -29,7 +29,7 @@ buttonSubmit.addEventListener("click", async (e) => {
     }
   });
 
-  unFollowersDiv.innerHTML = `<h2 class="my-3">Lista de usuários</h2>`;
+  unFollowersDiv.innerHTML = `<h2 class="my-3">Lista de usuários (${unFollowers.length})</h2>`;
   unFollowers.forEach((unFollower) => {
     unFollowersDiv.innerHTML += `
           <div class="card" style="width: 14rem; margin: 0 auto 2rem;">
